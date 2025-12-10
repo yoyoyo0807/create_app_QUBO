@@ -1,0 +1,2 @@
+# create_app_QUBO
+QUBOを利用した連鎖的な崩壊パターンの可視化
