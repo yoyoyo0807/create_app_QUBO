@@ -1,0 +1,34 @@
+# Urban EMS Systemic Risk Insight (Streamlit)
+
+このアプリは、都市救急における
+**病院依存構造**と**システミックリスク**を  
+**“意思決定に直結する形”で可視化**することを目的としています。
+
+---
+
+## Important
+
+- 生データ（例: emergency_with_metrics_and_mesh.csv 353MB）は GitHub に置きません。
+- Colab で軽量CSVを生成し、`data/processed/` に配置してください。
+
+---
+
+## Required data
+
+最低限これがあれば主要ページが動きます：
+
+- `data/processed/mesh_location.csv`
+- `data/processed/hospital_stress_scores.csv`
+
+推奨：
+
+- `data/processed/mesh_hospital_case_matrix.csv`
+- `data/processed/hospital_stress_with_groups.csv`
+
+---
+
+## Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
