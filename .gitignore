@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+.DS_Store
+
+.streamlit/secrets.toml
+
+.ipynb_checkpoints/
+
+# never commit raw huge data
+data/raw/
+*.parquet
+*.feather
